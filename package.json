@@ -1,0 +1,60 @@
+{
+  "name": "TextField-styled-component",
+  "version": "1.0.0",
+  "description": "Created according to the requirements",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fionnachan/react-component-textfield.git"
+  },
+  "keywords": [
+    "React",
+    "webpack",
+    "Redux",
+    "Babel",
+    "ES6"
+  ],
+  "author": "https://github.com/fionnachan",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^8.2.5",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "babel-runtime": "^6.11.6",
+    "css-loader": "^0.25.0",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-react": "^6.3.0",
+    "html-loader": "^0.5.5",
+    "style-loader": "^0.13.1",
+    "styled-components": "^4.1.3",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-hot-middleware": "^2.12.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-addons-create-fragment": "^15.3.2",
+    "react-addons-pure-render-mixin": "^15.3.2",
+    "react-addons-transition-group": "^15.3.2",
+    "react-addons-update": "^15.3.2",
+    "react-dom": "^16.4.1",
+    "react-event-listener": "^0.6.1",
+    "react-hot-loader": "^4.3.3",
+    "react-redux": "^5.0.7",
+    "react-tap-event-plugin": "^3.0.3",
+    "react-transition-group": "^2.4.0",
+    "redux": "^4.0.0"
+  }
+}

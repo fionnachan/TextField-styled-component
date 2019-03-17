@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #b4edff;
+  font-family: Lucida Grande, Calibri;
+  padding: 20px;
+  margin: 0;
+}
